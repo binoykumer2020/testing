@@ -2,7 +2,7 @@
 Feature: Boarding screen functionalities
 Given user is on the boarding screen of drest mobile app
 And user can see some information with sliding text points
-When user swipe sliding text point
+When user swipe sliding text point    // user swiped right to left
 Then next screen comes with more information
 When user swipe slide points again
 Then next user can see more information box
